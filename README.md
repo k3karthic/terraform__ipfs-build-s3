@@ -2,6 +2,8 @@
 
 Terraform script to create a Google Cloud Build trigger for automated builds of [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) with ipfs-ds-s3 plugin
 
+The final ipfs binary is available at [https://storage.googleapis.com/go-ipfs-s3/ipfs](https://storage.googleapis.com/go-ipfs-s3/ipfs)
+
 ## Input Variables
 
 * **gcs_name** - Name of the Google storage bucket which will store the built ipfs binary.
