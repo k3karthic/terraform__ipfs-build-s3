@@ -24,14 +24,6 @@ resource "google_storage_bucket" "bucket" {
   uniform_bucket_level_access = true
 }
 
-resource "google_storage_bucket_iam_binding" "binding" {
-  bucket = google_storage_bucket.bucket.name
-  role = "roles/storage.objectViewer"
-  members = [
-    "allUsers",
-  ]
-}
-
 resource "google_cloudbuild_trigger" "trigger" {
     name = "go-ipfs"
 
