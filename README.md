@@ -6,6 +6,11 @@ The [k3karthic](https://github.com/k3karthic/go-ipfs/tree/k3karthic) branch cont
 
 The build pipeline in this repo uses the above Dockerfile to build the binary and stores it in a Google Cloud Storage bucket.
 
+## Requirements
+
+* Enable the Cloud Build API from the [Settings screen](https://console.cloud.google.com/cloud-build/settings/service-account).
+* Connect to GitHub from the [Manage Repositories screen](https://console.cloud.google.com/cloud-build/repos) and add [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) repository.
+
 ## Input Variables
 
 * **gcs_name** - Name of the Google storage bucket which will store the built ipfs binary.
