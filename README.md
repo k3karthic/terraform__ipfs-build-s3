@@ -19,9 +19,9 @@ The build pipeline in this repo uses the above Dockerfile to build the binary an
 ## Configuration
 
 Update `ipfs.tfvars`,
-* **gcs_name** - Name of the Google storage bucket which will store the built ipfs binary.
-* **gcs_location** - [GCS location](https://cloud.google.com/storage/docs/locations) of the bucket.
-* **gcs_storage_class** - Storage class for the bucket.
+* **gcs_name** — Name of the Google storage bucket which will store the built ipfs binary.
+* **gcs_location** — [GCS location](https://cloud.google.com/storage/docs/locations) of the bucket.
+* **gcs_storage_class** — Storage class for the bucket.
 
 ## Deployment
 
