@@ -1,10 +1,8 @@
 # Terraform — Google Cloud Build for go-ipfs
 
-Terraform script to create a Google Cloud Build trigger for automated builds of [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) with [go-ds-s3](https://github.com/ipfs/go-ds-s3) plugin.
+Automated builds of [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) using a [Google Cloud Build](https://cloud.google.com/build) trigger.
 
-The [k3karthic](https://github.com/k3karthic/go-ipfs/tree/k3karthic) branch contains a [Dockerfile](https://github.com/k3karthic/go-ipfs/blob/k3karthic/k3karthic/Dockerfile) which builds the ipfs binary using Ubuntu 20.04 as the base.
-
-The build pipeline in this repo uses the above Dockerfile to build the binary and stores it in a Google Cloud Storage bucket.
+The build pipeline in this repo uses the Dockerfile in the fork to build the binary and stores it in a Google Cloud Storage bucket.
 
 ## Code Mirrors
 
