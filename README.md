@@ -2,7 +2,7 @@
 
 Automated builds of [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) using a [Google Cloud Build](https://cloud.google.com/build) trigger.
 
-The build pipeline in this repo uses the Dockerfile in the fork to build the binary and stores it in a Google Cloud Storage bucket.
+The build pipeline uses a Dockerfile in the fork to build the binary and store it in a Google Cloud Storage bucket.
 
 ## Code Mirrors
 
