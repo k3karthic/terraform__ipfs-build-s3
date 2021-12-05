@@ -25,6 +25,12 @@ Update the [Terraform input variables](https://www.terraform.io/docs/language/va
 * **gcs_location** — [GCS location](https://cloud.google.com/storage/docs/locations) of the bucket.
 * **gcs_storage_class** — Storage class for the bucket.
 
+## Authentication
+
+[Google provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs) documentation is at [registry.terraform.io/providers/hashicorp/google/latest/docs](https://registry.terraform.io/providers/hashicorp/google/latest/docs).
+
+[Google Cloud Shell](https://cloud.google.com/shell/) can deploy this script without configuration.
+
 ## Deployment
 
 **Step 1:** Use the following command to create a [Terraform plan](https://www.terraform.io/docs/cli/run/index.html#planning),
