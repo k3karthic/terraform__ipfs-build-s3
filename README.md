@@ -1,6 +1,9 @@
 # Terraform — Google Cloud Build for go-ipfs
 
-Automated builds of [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) using a [Google Cloud Build](https://cloud.google.com/build) trigger.
+Automated builds of the go-ipfs fork below using a [Google Cloud Build](https://cloud.google.com/build) trigger.
+* go-ipfs
+	* GitHub: [github.com/k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs)
+	* Codeberg: [codeberg.org/k3karthic/bash-updater](https://codeberg.org/k3karthic/bash-updater)
 
 The build pipeline uses a Dockerfile in the fork to build the binary and store it in a Google Cloud Storage bucket.
 
