@@ -21,9 +21,9 @@ The build pipeline consists of the following steps,
 ## Configuration
 
 Update the [Terraform input variables](https://www.terraform.io/docs/language/values/variables.html) in `ipfs.tfvars`,
-* **gcs_name** — Name of the Google storage bucket which will store the built ipfs binary.
-* **gcs_location** — [GCS location](https://cloud.google.com/storage/docs/locations) of the bucket.
-* **gcs_storage_class** — Storage class for the bucket.
+* **gcs_name** — Name of the Google storage bucket which will store the built ipfs binary
+* **gcs_location** — [GCS location](https://cloud.google.com/storage/docs/locations) of the bucket
+* **gcs_storage_class** — Storage class for the bucket
 
 ## Authentication
 
