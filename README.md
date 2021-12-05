@@ -1,6 +1,6 @@
 # Terraform — Google Cloud Build for go-ipfs
 
-Automated builds of the go-ipfs fork below using a [Google Cloud Build](https://cloud.google.com/build) trigger.
+Automated builds of the following go-ipfs fork below using a [Google Cloud Build](https://cloud.google.com/build) trigger,
 * GitHub: [github.com/k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs)
 * Codeberg: [codeberg.org/k3karthic/bash-updater](https://codeberg.org/k3karthic/bash-updater)
 
