@@ -2,7 +2,7 @@
 
 Automated builds of the following go-ipfs fork below using a [Google Cloud Build](https://cloud.google.com/build) trigger,
 * GitHub: [github.com/k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs)
-* Codeberg: [codeberg.org/k3karthic/bash-updater](https://codeberg.org/k3karthic/bash-updater)
+* Codeberg: [codeberg.org/k3karthic/go-ipfs](https://codeberg.org/k3karthic/go-ipfs)
 
 The build pipeline consists of the following steps,
 1. Build the ipfs binary using the Dockerfile from the fork
@@ -15,8 +15,8 @@ The build pipeline consists of the following steps,
 
 ## Requirements
 
-* Enable the Cloud Build API from the [Settings screen](https://console.cloud.google.com/cloud-build/settings/service-account).
-* Connect to GitHub from the [Manage Repositories screen](https://console.cloud.google.com/cloud-build/repos) and add [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) repository.
+* Enable the Cloud Build API from the [Settings screen](https://console.cloud.google.com/cloud-build/settings/service-account)
+* Connect to GitHub from the [Manage Repositories screen](https://console.cloud.google.com/cloud-build/repos) and add [k3karthic/go-ipfs](https://github.com/k3karthic/go-ipfs) repository
 
 ## Configuration
 
